@@ -1,0 +1,29 @@
+.footer-content__nav h4 {
+  margin-bottom: 1.2rem;
+}
+
+.footer-content__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content__links li {
+  margin-bottom: 1rem;
+}
+
+.footer-content__links a {
+  color: #7e7d7d;
+  text-decoration: none;
+}
+
+.footer-content__links a:hover,
+.footer-content__links a:active,
+.footer-content__links a.active {
+  color: var(--primary-color);
+  text-decoration: underline;
+}

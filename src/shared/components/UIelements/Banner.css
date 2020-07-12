@@ -1,0 +1,30 @@
+.banner-backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+
+.banner-items {
+  flex-direction: column;
+}
+
+.banner-items input {
+  margin-top: 3rem;
+  padding: 1.3rem 2rem;
+  width: 80%;
+  max-width: 600px;
+  font: inherit;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+.banner-items input:focus {
+  outline: none;
+  background: #ebebeb;
+  border: 2px solid var(--primary-color);
+}
+
+.banner-items h1 {
+  padding-top: 4rem;
+  color: white;
+  letter-spacing: 1px;
+}

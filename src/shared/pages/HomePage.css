@@ -1,0 +1,20 @@
+main {
+  margin-top: 4.5rem;
+}
+
+.homepage-banner {
+  height: 408px;
+  overflow: hidden;
+  object-fit: fill;
+  background-image: url(../../assets/evening-field-football-field-goal-399187.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.homepage-cardsection {
+  background-color: rgba(0, 0, 0, 0.11);
+  text-align: center;
+  padding: 2rem 0;
+}
